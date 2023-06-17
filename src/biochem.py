@@ -74,9 +74,8 @@ def load_s_dict(filepath):
     return s_dict
 
 
-
-s_dict = load_s_dict("../../datasets/" + settings['s_table_filename'])
-use_naive_s_values = settings['use_naive_s_values']
+# Load `s` values (affinities)
+s_dict = load_s_dict("../data/" + settings['s_table_filename'])
 
 
 
